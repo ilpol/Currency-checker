@@ -1,9 +1,12 @@
 # Currency-checker  
 Запуск  
 `gradlew bootRun `  
+<br/>
 Открыть http://localhost:8080/  
+<br/>
 Смотреть гифки можно так: 
 `http://localhost:8080/check-currency?currency=Аббревиатура валюты`  
+<br/>
 Например,  
 `http://localhost:8080/check-currency?currency=AED`  
 или  
