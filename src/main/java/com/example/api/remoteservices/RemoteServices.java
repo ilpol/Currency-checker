@@ -53,7 +53,6 @@ public class RemoteServices {
 
 			Properties prop = new Properties();
 
-			// load a properties file
 			prop.load(input);
 
 			Giphy giphy = Feign.builder()

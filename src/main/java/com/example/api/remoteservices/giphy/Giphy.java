@@ -6,7 +6,6 @@ import feign.RequestLine;
 
 public interface Giphy {
 
-    //@RequestLine("GET /repos/{owner}/{repo}/contributors")
     @RequestLine("GET /v1/gifs/search?api_key={apiGifKey}&q={happyQuerry}")
     Gif rich(@Param("apiGifKey") String apiGifKey, @Param("happyQuerry") String happyQuerry);
 

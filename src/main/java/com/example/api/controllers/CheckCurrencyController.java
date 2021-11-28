@@ -7,15 +7,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-//ebf77c6d832b4c5ea37958354fcba16d
-
-//giphy
-//9QGQ7Lf9QUdotQfaKQIZhJdj9D6PUQ1m
-
-
 @Controller
 public class CheckCurrencyController {
-
 
 	@GetMapping("/check-currency")
 	public String checkCurrency(@RequestParam(name="currency", required=false, defaultValue="AED") String currency, Model model) throws NoSuchFieldException, IllegalAccessException {
