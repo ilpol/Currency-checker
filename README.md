@@ -11,7 +11,6 @@
 `http://localhost:8080/check-currency?currency=AED` 
 <br/>
 или  
-<br/>
 `http://localhost:8080/check-currency?currency=BHD`  
 <br/>
 Запуск тестов  
