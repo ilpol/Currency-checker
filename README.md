@@ -21,6 +21,7 @@
 <br/>
 Запуск докера  
 `docker run -p 8080:8080 currency-mood`  
+<br/>
 ![Домашняя страница](https://github.com/ilpol/Currency-checker/blob/main/home_page.png)  
 ![Ответ с радостной гифкой](https://github.com/ilpol/Currency-checker/blob/main/happy.png)  
 ![Ответ с печальной гифкой](https://github.com/ilpol/Currency-checker/blob/main/unhappy.png)
